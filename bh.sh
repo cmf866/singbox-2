@@ -21,11 +21,11 @@ HOSTNAME=$(hostname)
 
 export UUID=${UUID:-'67f9efce-f6a0-4418-af22-23ae89971277'}
 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'XXXXX.你自己的域名.us.kg'}   
-export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"c382985b2cc69cec6c6eca82549175b7","TunnelSecret":"g+RMKzBJfZ0AVJYjlns/S4PDYOdQpQ3QlzYpLoDu8PU=","TunnelID":"a038d496-73bb-46ec-9d6d-d13fa6acb212"}'}
-export VMESS_PORT=${VMESS_PORT:-'21152'}
-export HY2_PORT=${HY2_PORT:-'50460'}
-export TUIC_PORT=${TUIC_PORT:-'60624'}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'cyang.cccc.nyc.mn'}   
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"40cb7a49-329b-4a22-a35a-ed9f1abf9b31","TunnelSecret":"eyJhIjoiYTJkODA0ZTZhNzcyZmUyY2I3ZjcxNWExM2RjMjRlODkiLCJ0IjoiODk4OWNkYzAtMDllNS00ODljLWI2M2ItODBmM2ZkYzY4Yjc5IiwicyI6IllUTm1Zek5qTWpRdE5qTXpaQzAwTnpGakxXRXpZelF0TjJNMU5HTmhNVEF4WVdFeCJ9","TunnelID":"8989cdc0-09e5-489c-b63b-80f3fdc68b79"}'}
+export VMESS_PORT=${VMESS_PORT:-'36298'}
+export HY2_PORT=${HY2_PORT:-''}
+export TUIC_PORT=${TUIC_PORT:-''}
 
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
